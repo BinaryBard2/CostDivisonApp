@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="passwordEditText" type="id" />
+    <item name="signupButton" type="id" />
+    <item name="emailEditText" type="id" />
+    <item name="loginButton" type="id" />
+    <item name="resetButton" type="id" />
+    <item name="categoryEditText" type="id" />
+    <item name="amountEditText" type="id" />
+    <item name="titleEditText" type="id" />
+    <item name="dateEditText" type="id" />
+    <item name="peopleEditText" type="id" />
+    <item name="saveButton" type="id" />
+    <item name="resultTextView" type="id" />
+    <item name="calculateButton" type="id" />
+    <item name="totalAmountEditText" type="id" />
+    <item name="reportTextView" type="id" />
+</resources>

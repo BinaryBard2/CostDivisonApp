@@ -1,0 +1,73 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExpenseEntryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="172dp"
+            android:layout_height="168dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/login"
+            android:src="@drawable/expenses" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/enter_expenses"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/titleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:hint="@string/title" />
+
+        <EditText
+            android:id="@+id/amountEditText"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="@string/amount"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/categoryEditText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/category" />
+
+        <EditText
+            android:id="@+id/dateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="@string/date"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/peopleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/number_of_people"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_expense"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+</ScrollView>

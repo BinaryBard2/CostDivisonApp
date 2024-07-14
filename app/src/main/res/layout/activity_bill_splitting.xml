@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".BillSplittingActivity">
+
+    <ImageView
+        android:layout_width="184dp"
+        android:layout_height="174dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/login"
+        android:src="@drawable/sharing" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/cost_division"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/totalAmountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:hint="Total Amount"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/peopleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:hint="Number of People"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Result"
+        android:textSize="18sp" />
+
+</LinearLayout>

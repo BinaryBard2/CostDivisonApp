@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "38670525117",
+    "firebase_url": "https://costdivisonapp-default-rtdb.firebaseio.com",
+    "project_id": "costdivisonapp",
+    "storage_bucket": "costdivisonapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38670525117:android:04028dcd8c3d16faee0dd4",
+        "android_client_info": {
+          "package_name": "com.example.costdivisonapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp73c5sEDwDx52-HkiW3qmqzIPAqTI_CY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

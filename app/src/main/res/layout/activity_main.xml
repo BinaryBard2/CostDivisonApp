@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <ImageView
+        android:layout_width="196dp"
+        android:layout_height="214dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/cost_division_app"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:onClick="onSignupClick"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:onClick="onLoginClick" />
+
+    <Button
+        android:id="@+id/expenseEntryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expense Entry"
+        android:onClick="onExpenseEntryClick" />
+
+    <Button
+        android:id="@+id/billSplittingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bill Splitting"
+        android:onClick="onBillSplittingClick" />
+
+    <Button
+        android:id="@+id/reportsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reports"
+        android:onClick="onReportsClick" />
+
+</LinearLayout>

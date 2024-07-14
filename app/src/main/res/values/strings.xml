@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CostDivisonApp</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="cost_division_app">COST DIVISION APP</string>
+    <string name="todo">TODO</string>
+    <string name="Signup" />
+    <string name="signup">Signup</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title">Title</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="number_of_people">Number of People</string>
+    <string name="save_expense">Save Expense</string>
+    <string name="enter_expenses">ENTER EXPENSES</string>
+    <string name="cost_division">Cost Division</string>
+    <string name="report">Report</string>
+</resources>
